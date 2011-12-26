@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="match_parent" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:gravity="center" >
+	    <TextView 
+	        android:id="@+id/userLogin"
+	        android:gravity="center"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"/>
+	    <EditText 
+	        android:hint="ID Event"
+	        android:id="@+id/eventId"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"/>
+	    <EditText 
+	        android:hint="Total Ticket (MAX 5)"
+	        android:id="@+id/eventTotal"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"/>
+	    <TextView 
+	        android:text="Buy Ticket"
+	        android:gravity="center"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"/>
+	    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:gravity="center">
+	    <Button 
+	        android:id="@+id/OrderOne"
+	        android:text="Tribune 1"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"/>
+	    <Button 
+	        android:id="@+id/OrderTwo"
+	        android:text="Tribune 2"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"/>
+	    <Button 
+	        android:id="@+id/OrderThree"
+	        android:text="Tribune 3"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"/>
+	    </LinearLayout>
+	    <Button 
+	        android:id="@+id/exitEvent"
+	        android:text="Exit"
+	        android:textColor="#DAA520"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"/>
+		<LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <TextView
+		        android:id="@+id/id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#DAA520" />
+		    <TextView
+		        android:id="@+id/event"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textColor="#DAA520" />
+		</LinearLayout>
+		<TextView
+		        android:id="@+id/textDeposit"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textColor="#DAA520" />
+		<LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center">
+		    <TextView
+		        android:text="Tribune 1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="#DAA520" />
+		    <TextView
+		        android:text="Tribune 2"
+		        android:layout_marginLeft="5mm"
+		        android:layout_marginRight="5mm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textColor="#DAA520" />
+		    <TextView
+		        android:text="Tribune 3"
+		        android:gravity="right"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#DAA520" />
+		</LinearLayout>
+		<LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center">
+		    <TextView
+		        android:layout_marginRight="1mm"
+		        android:id="@+id/tribuneOne"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="#DAA520" />
+		    <TextView
+		        android:id="@+id/tribuneTwo"
+		        android:layout_marginLeft="5mm"
+		        android:layout_marginRight="5mm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textColor="#DAA520" />
+		    <TextView
+		        android:layout_marginLeft="1mm"
+		        android:id="@+id/tribuneThree"
+		        android:gravity="right"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#DAA520" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

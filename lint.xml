@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\loading.xml" />
+        <ignore path="res\layout\splash.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\index.xml" />
+        <ignore path="res\layout\main.xml" />
+        <ignore path="res\layout\splash.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res\layout\index.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res\layout\index.xml" />
+        <ignore path="res\layout\index.xml" />
+        <ignore path="res\layout\main.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res\layout\main.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res\layout\index.xml" />
+    </issue>
+</lint>
