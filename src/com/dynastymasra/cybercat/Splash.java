@@ -2,6 +2,7 @@ package com.dynastymasra.cybercat;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ProgressBar;
@@ -12,15 +13,19 @@ public class Splash extends Activity {
 	   ProgressBar progressBar;
 	   Handler handler = new Handler();
 	   String msg;
+	   MediaPlayer uefa;
 	   
 	   public void onCreate(Bundle savedInstanceState) {
 	      super.onCreate(savedInstanceState);
 	      setContentView(R.layout.splash);
 	      progressBar = (ProgressBar) findViewById(R.id.progg);
 	      
+	      uefa = MediaPlayer.create(this, R.raw.uefa);
+	      uefa.start();
 	      Intent intent = getIntent();
 	      msg = intent.getStringExtra("value");
-	     
+	      
+	      
 	      new Thread(new Runnable() {
 	         @Override
 	         public void run() {

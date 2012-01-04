@@ -18,7 +18,6 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -48,8 +47,6 @@ public class StadiumArenaActivity extends Activity {
 		login =(Button) findViewById(R.id.login);
 		pass = (EditText) findViewById(R.id.password);
         
-		cek();
-		
         exit.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
